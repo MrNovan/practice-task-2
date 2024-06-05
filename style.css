@@ -1,0 +1,101 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner {
+  width: 1440px;
+  height: 90px;
+  top: 11px;
+  background-image: url('./images/background.png');
+  background-repeat: no-repeat; 
+  background-size: cover; 
+}
+
+.school-bag {
+  position: relative;
+  top: 7px;
+  left: 64.13px;
+}
+
+.text {
+  position: absolute;
+  width: 222px;
+  height: 42px;
+  top: 6px;
+  left: 210px;
+  font-family: "Onest", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.subtext {
+  position: absolute;
+  width: 279px;
+  height: 17px;
+  top: 59px;
+  left: 211px;
+  font-family: "Onest", sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 17px;
+}
+
+.arrow01 {
+  position: relative;
+  top: 23px;
+  left: 402px;
+}
+
+.subtext02 {
+  position: absolute;
+  width: 546px;
+  height: 17px;
+  top: 11px;
+  left: 593px;
+  font-family: "Onest", sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 17px;
+}
+
+.text02 {
+  position: absolute;
+  width: 546px;
+  height: 42px;
+  top: 28px;
+  left: 593px;
+  font-family: "Onest", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.arrow02 {
+  position: relative;
+  top: 22px;
+  left: 958px;
+}
+
+.btn {
+  position: absolute;
+  width: 160px;
+  height: 29px;
+  top: 41px;
+  left: 1173px;
+  border-radius: 5px;
+  background-color: #136EF6;
+  color: white;
+  font-family: "Onest", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.computer {
+  position: relative;
+  top: 29px;
+  left: 1170px;
+}
