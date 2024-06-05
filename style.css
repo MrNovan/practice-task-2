@@ -99,3 +99,183 @@
   top: 29px;
   left: 1170px;
 }
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 930px;
+  height: 440px;
+  border-radius: 10px;
+  background-image: url('./images/back-modal.png');
+  background-repeat: no-repeat; 
+  background-size: cover; 
+}
+
+.close {
+  float: right;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-text {
+  position: absolute;
+  width: 490px;
+  height: 44px;
+  top: 238px;
+  left: 334px;
+  font-family: "Onest", sans-serif;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 44px;
+  color: #136EF6;
+}
+
+.modal-subtext {
+  position: absolute;
+  width: 345px;
+  height: 23px;
+  top: 320px;
+  left: 334px;
+  font-family: "Onest", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  color: #121212;
+}
+
+.revenue {
+  position: absolute;
+  top: 379px;
+  left: 335px;
+}
+
+.modal-subtext02 {
+  position: absolute;
+  width: 430px;
+  height: 60px;
+  top: 364px;
+  left: 395px;
+  font-family: "Onest", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  color: #121212;
+}
+
+.modal-subtext03 {
+  top: 442px;
+}
+
+.modal-subtext04 {
+  top: 517px;
+}
+
+.chat {
+  position: absolute;
+  top: 458px;
+  left: 335px;
+}
+
+.notes {
+  position: absolute;
+  top: 537px;
+  left: 335px;
+}
+
+.modal-subtext05 {
+  position: absolute;
+  width: 445px;
+  height: 48px;
+  top: 600px;
+  left: 334px;
+  font-family: "Onest", sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 15px;
+  color: #121212;
+}
+
+.input {
+  position: absolute;
+  width: 260px;
+  height: 50px;
+  top: 293px;
+  left: 862px;
+  border-radius: 5px;
+  border: 0.5px solid #136EF6;
+}
+
+.email {
+  top: 358px;
+}
+
+.phone {
+  top: 423px;
+}
+
+.inputChange {
+  position: absolute;
+  width: 267px;
+  height: 52px;
+  top: 488px;
+  left: 862px;
+  border-radius: 5px;
+  border: 0.5px solid #136EF6;
+}
+
+input::placeholder {
+  padding-left: 20px;
+}
+
+.button {
+  position: absolute;
+  width: 268px;
+  height: 44px;
+  top: 556px;
+  left: 862px;
+  border-radius: 5px;
+  background-color: #136EF6;
+  color: white;
+  font-family: "Onest", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.subtext00 {
+  position: absolute;
+  width: 260px;
+  height: 39px;
+  top: 606px;
+  left: 862px;
+  font-family: "Onest", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 13px;
+  color: #4A4A53;
+}
+
+.vector {
+  position: absolute;
+  top: 489px;
+  left: 1149px;
+}
